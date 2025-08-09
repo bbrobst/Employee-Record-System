@@ -20,7 +20,7 @@ void Employee::displayInfo() const
 	std::cout << "*** Employee Info ***\n";
 	std::cout << "Name: " << name << "\n";
 	std::cout << "ID: " << id << "\n";
-	std::cout << "Salary: " << salary << "\n";
+	std::cout << "Salary: $" << salary << "\n";
 }
 
 void Employee::getEmployeeCount()
